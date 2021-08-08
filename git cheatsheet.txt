@@ -1,0 +1,11 @@
+touch .gitignore
+git init
+git status
+git add . 
+git commit -m "Initial commit" 
+git remote add origin https://github.com/ashbora/hello-world.git
+git push -u origin master
+git log
+git --help
+git config --global user.name ashbora
+git config --global user.email ashwinibora28@gmail.com
