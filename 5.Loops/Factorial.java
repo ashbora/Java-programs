@@ -1,0 +1,15 @@
+  /* program to find the factorial of given number
+  */
+
+  class Factorial
+  {
+    public static void main(String [] args)
+    {
+       int num = Integer.parseInt(args[0]);
+       int f = 1; 
+       for(int i=1;i<=num;i++)
+          f = f*i;
+
+       System.out.print("The factorial of "+num+" is "+f);
+    }
+  }

@@ -1,0 +1,45 @@
+Operators
+----------
+Arithmetic Operators
+---------------------
+Simple :  + - * / %
+Arithmetic Assignment(Shorthand) : += -= *= /= %=
+Increment  : ++
+Decrement  : --
+
+
+Relational operators
+--------------------
+>   <    >=    <=    ==  !=
+
+Boolean Logical Operators
+--------------------------
+   &  Logical AND
+   |  Logical OR
+   ^  Logical XOR
+   || short-circuit OR
+   && short-circuit AND
+   !  Logical Unary NOT
+   &= AND assignment
+   |= OR assignment
+   ^= XOR assignment                  
+   == Equal to
+   != Not equal to
+   ?: Ternary if-then-else(conditional operator)
+
+Bitwise Operators
+------------------
+~    Bitwise Unary NOT
+&    Bitwise AND
+|    Bitwise OR
+^    Bitwise Exclusive OR
+>>   Shift right
+>>>  Shift right zero fill
+<<   Shift left
+&=   Bitwise AND assignment
+|=   Bitwise OR assignment
+^=   Bitwise Exclusive OR assignement
+>>=  Shift right assignement
+>>>= Shift right zero fill assignment
+<<=  Shift left assignment
+

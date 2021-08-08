@@ -1,0 +1,17 @@
+final keyword
+-------------
+1> creating a named constant 
+
+   final int MAXSTUD=70;
+
+2> creating final method i.e. the method which can not overridden
+    final void displayDimension()
+    {
+
+    }
+
+3> creating final class i.e. the class which can not inherited
+   final class Sample 
+   {
+
+   }

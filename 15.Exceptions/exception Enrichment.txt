@@ -1,0 +1,15 @@
+ public void method2() throws EnrichableException
+ {
+     try{
+        method1(); 
+     } catch(EnrichableException e)
+      {
+        e.addInfo("An error occurred when trying to ...");
+        throw e;
+     }
+  }
+  
+  public void method1() throws EnrichableException
+ {
+     if(...) throw new EnrichableException( "Original error message");   
+  }

@@ -1,0 +1,18 @@
+Primitive DataTypes
+-------------------
+=>Numeric 
+  1.Integer
+     * byte        1 byte          -128 to +127
+     * short       2 bytes         -32768 to +32767
+     * int         4 bytes         -2147483648 to + 2147483647
+     * long        8 bytes         -9,223,372,036,854,775,808 to +9,223,372,036,854,775,807
+   
+  2.Floating-point
+     * float       4 bytes         1.4e-045 to 3.4e+038
+     * double      8 bytes         4.9e-324 ro 1.8e+308
+
+=>Character
+     * char        2 bytes         character in unicode having range 0 to 65535
+
+=>Boolean
+     * boolean     2 bytes         true or false      

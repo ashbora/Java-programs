@@ -1,0 +1,30 @@
+ import java.awt.*;
+ import java.applet.*;
+ public class MyApplet extends Applet
+ {
+     public void init()
+     {
+          //Called at the begining of the applet
+          // All initializations are carried here
+      }
+      public void start()
+      {
+         //Called after init()
+         // and also called when applet resumes
+      }
+      public void paint(Graphics g)
+      {
+          //called after start()
+          // and each time the updation in applet window required
+      }
+      public void stop()
+     {
+         //called when applet to stop its work temparorily
+         // or parmanently
+     }
+     public void destroy()
+    {
+         //called when applet ended permanently.
+        // used to perform shut-down activities
+    }
+ }

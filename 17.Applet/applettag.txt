@@ -1,0 +1,17 @@
+<APPLET 
+   [ CODEBASE = codebaseURL ]  
+      CODE = appletFile 
+   [ ALT =  alternateText ]
+   [ NAME = appletInstanceName ]
+     WIDTH = pixels
+     HEIGHT = pixels
+   [ ALIGN = alignment ]
+   [ VSPACE = pixels ]
+   [ HSPACE = pixels ]
+>
+
+ [<PARAM NAME = attributeName VALUE = attributeValue >  ]
+ [<PARAM NAME = attributeName VALUE = attributeValue >  ]
+ ...
+[HTML displayed in the absence of java ]
+</APPLET>
